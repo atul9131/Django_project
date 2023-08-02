@@ -1,0 +1,53 @@
+{% comment %} Code for video no. - 8 {% endcomment %}
+
+{% comment %} <!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <title>Template is working!</title>
+</head>
+<body>
+   this is me a Template. Working with {{name}} at {{place}}.
+</body>
+</html> {% endcomment %}
+
+
+{% comment %} Code for video no. - 9 {% endcomment %}
+
+{% comment %} <!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <title>Template is working!</title>
+</head>
+<body>
+    <h1> Welcome to the text analyazer. Enter your text blelow </h1>
+    <form action='/removepunc' method = 'get'>
+        <textarea name='text' style='margin: 0px; width: 1461px; height: 225px;'></textarea>
+        <button type='submit'> Analyze Text </button>
+
+</body>
+</html> {% endcomment %}
+
+
+{% comment %} Code for video no. - 10 -- 12 {% endcomment %}
+
+
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <title>Text Utiles</title>
+</head>
+<body>
+    <h1> Welcome to the text analyzer. Enter your text blelow </h1>
+    <form action='/analyze' method = 'get'>
+        <textarea name='text' style='margin: 0px; width: 1461px; height: 225px;'></textarea>
+        <input type="checkbox" name="removepunc"> Remove Punctuations<br>
+        <input type="checkbox" name="fullcaps"> UPPERCASE<br>
+        <input type="checkbox" name="newlineremove"> New Line Remover<br>
+        <input type="checkbox" name="extraspaceremove"> Extra Space Remover<br>
+        <input type="checkbox" name="charcount"> Character Counter<br>
+        <button type='submit'> Analyze Text </button>
+
+</body>
+</html>
